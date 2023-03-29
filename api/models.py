@@ -1,4 +1,5 @@
 from django.db import models
+import uuid
 
 class Article(models.Model):
     name = models.CharField(max_length=100, unique=True)
